@@ -29,4 +29,11 @@ header a{
     color: white;
     font-family:  monospace, 'Courier New', Courier;
     font-size: 26px;
+    text-decoration: none;
+}
+
+
+
+.principal{
+    background: url('../Literame/38996hd.jpg');
 }
