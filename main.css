@@ -36,7 +36,10 @@ header a{
     
 }
 
-
+header a:hover{
+    background: white;
+    border-bottom: palegreen;
+}
 
 .principal{
     background: url(38996hd.jpg);
