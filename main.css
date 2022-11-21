@@ -3,59 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: monospace;
+    background: powderblue;
+
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
 
 header{
     background: #000;
-    margin: 0;
-    height: auto;
     width: 100%;
-    position: fixed;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 5%;
-    box-sizing: border-box;
-
-}
-header h1{
-    color: white;
-    font-size: 26px;
-    display: inline-block;
-    width: 300px;
-}
-header input{
-    color: white;
-
-}
-header a{
-    color: white;
-    font-family:  monospace, 'Courier New', Courier;
-    font-size: 26px;
-    text-decoration: none;
-    height: 100% !important;
-    display: inline-block;
+    height: 80px;
     
-}
-
-header a:hover{
-    background: white;
-    color: skyblue;
-    border-bottom: 1px palegreen;
-}
-
-.principal{
-    background: url(38996hd.jpg);
-    background-size: auto;
-    height: 600px;
-    width: 100%;
-
-}
-.principal p{
-    background: #000;
-    font-size: 16px;
-    color: white;
-}
-
-footer{
-    border-top: 1px white;
-    background: #000;
 }
