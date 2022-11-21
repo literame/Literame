@@ -31,13 +31,16 @@ header a{
     font-family:  monospace, 'Courier New', Courier;
     font-size: 26px;
     text-decoration: none;
+    
     display: inline-block;
+    
 }
 
 
 
 .principal{
-    background: url(/38996hd.jpg);
+    background: url(38996hd.jpg);
     height: 400px;
     width: 100%;
+
 }
