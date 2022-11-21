@@ -3,10 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-header img{
-    height: 50px;
-    width: 50px;
-}
+
 header{
     background: #000;
     margin: 0;
@@ -22,7 +19,7 @@ header{
 header h1{
     color: white;
     font-size: 26px;
-
+    display: inline-block;
 }
 header input{
     color: white;
@@ -33,6 +30,7 @@ header a{
     font-family:  monospace, 'Courier New', Courier;
     font-size: 26px;
     text-decoration: none;
+    display: inline-block;
 }
 
 
