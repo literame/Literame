@@ -23,6 +23,7 @@ header h1{
     font-size: 26px;
     font-family: monospace;
     color: white;
+    display: inline-block;
 }
 nav{
     float: right;
@@ -30,7 +31,7 @@ nav{
 nav ul li{
     list-style: none;
     margin-left: 75px;
-    padding: 25px 0;
+    padding: 25px 5px;
     float: left;
     text-decoration: none;
     font-size: 26px;
