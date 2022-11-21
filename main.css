@@ -38,6 +38,7 @@ header a{
 
 header a:hover{
     background: white;
+    color: skyblue;
     border-bottom: palegreen;
 }
 
