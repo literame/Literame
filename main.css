@@ -31,7 +31,7 @@ header a{
     font-family:  monospace, 'Courier New', Courier;
     font-size: 26px;
     text-decoration: none;
-    
+    height: 100%;
     display: inline-block;
     
 }
@@ -39,12 +39,13 @@ header a{
 header a:hover{
     background: white;
     color: skyblue;
-    border-bottom: palegreen;
+    border-bottom: 1px palegreen;
 }
 
 .principal{
     background: url(38996hd.jpg);
-    height: 400px;
+    background-size: auto;
+    height: 600px;
     width: 100%;
 
 }
@@ -52,4 +53,8 @@ header a:hover{
     background: #000;
     font-size: 16px;
     color: white;
+}
+
+footer{
+    border-top: 1px white
 }
