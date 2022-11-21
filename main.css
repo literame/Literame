@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+img{
+    height: 50px;
+}
 header{
     background: #000;
     margin: 0;
