@@ -20,6 +20,7 @@ header h1{
     color: white;
     font-size: 26px;
     display: inline-block;
+    width: 300px;
 }
 header input{
     color: white;
