@@ -75,7 +75,7 @@ nav #buscar{
     text-align: justify;
 }
 #lenguaje{
-    width: 80px;
+    width: 25%;
     height: 60px;
     color: wheat;
     background: transparent;
@@ -84,5 +84,5 @@ nav #buscar{
     display: inline-block;
     font-size: 22px;
     align-items: center;
-    text-align: center;
+    justify-content: center;
 }
