@@ -1,7 +1,14 @@
-### Hi there 👋
+@autor ### hola mi nombre es luis 👋
+saludo directamente al presente lector de este readme.
 
 <!--
 **literame/Literame** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+literame fue pensada por luis palomino medina con la intencion de compartir conocimiento sobre ciencia, arte, tecnologia.
+
+  Quienes trabajan por este proyecto/objetivo:
+   °Luis Palomino (wooolllss)
+   °Angel Palomino
 
 Here are some ideas to get you started:
 
@@ -14,3 +21,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+gracias por leer :)
