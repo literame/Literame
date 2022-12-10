@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: monospace;
 }
 header {
     position: fixed;
@@ -9,13 +10,14 @@ header {
     right: 0;
     background: #000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    display: flex;
-    height: 80px;
+    
+    height: 70px;
     width: 100%;
   }
   body {
-    margin-top: 100px;
+    margin-top: 75px;
     background-color: rgb(12, 12, 12);
+    color: #fff;
   }
 
 .logo{
@@ -25,8 +27,9 @@ header {
     display: flex;
     color: #fff;
     
-    font-family: monospace;
     
+    justify-content: center;
+    align-items: center;
 }
 .logo h1{
     
@@ -42,14 +45,14 @@ img{
     width: 100%;
     height: 50%;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    justify-content: right;
+    
 }
 .opciones a{
     color: white;
     text-decoration: none;
     font-family: monospace;
-    
+    margin: 0 8px;
 }
 .opciones a:hover{
     border-bottom: 1px solid white;
@@ -66,8 +69,63 @@ img{
     height: 40px;
     
     display: flex;
-    background: orange;
+    justify-content: center;
+    align-items: center;
 }
+.tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.tools a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    height: 30px;
+    padding: 2px;
+    text-align: center;
+}
+.tools a:hover{
+    background: rgb(90, 187, 124);
+    
+
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url('../img/38996hd.jpg');
+    background-repeat: no-repeat;
+    
+}
+.techn{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    
+
+}
+.techn a{
+    
+    width: 80px;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: orange;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
 
 
 ::-webkit-scrollbar {
