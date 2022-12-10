@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="icon" href="./src/img/lite_icon.ico">
+    <title>Document</title>
+</head>
+    <header>
+        <div id="encabezado">
+            <div class="logo">
+                <img src="./src/img/lite_icon.jpg" alt="logo" >
+                <h1> Literame </h1>
+            </div>
+            <div class="opciones">
+            <a href="#" class="link">inicio</a>
+            <a href="#" class="link">sobre</a>
+            <a href="#" class="link">apoyo</a>
+            <input type="search" name="buscar" id="buscar" placeholder="buscar...">
+        
+            </div>
+        </div>
+    </header>
+    <body>
+    
+    </body>
+</html>
