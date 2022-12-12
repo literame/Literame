@@ -118,8 +118,17 @@ img{
     color: #fff;
 }
 
-
-
+.enlaces{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    padding: 10px;
+    
+}
 
 
 
