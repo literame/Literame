@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/main.css">
+    <!-- <link rel="stylesheet" href="../css/main.css"> -->
     <link rel="stylesheet" href="../css/QR.css">
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <script defer src="../js/app.js"></script>
@@ -24,7 +24,7 @@
         <a href="../../index.html" class="link">inicio</a>
         <a href="#" class="link">sobre</a>
         <a href="#" class="link">apoyo</a>
-        <input type="search" name="buscar" id="buscar" placeholder="buscar...">
+        <input type="search" name="buscar" id="buscar" class="link" placeholder="buscar...">
     
         </div>
     </div>
@@ -61,11 +61,14 @@
     <div class="box-in">
         <div class="contenedor">
             <form action="" id="formulario" class="formulario">
+                <p> ingresa el texto o enlace que deseas convertir a codigo QR </p>
                 <input type="text" id="link" placeholder="Escribe el texto o URL" />
                 <button class="btn">Generar QR</button>
             </form>
-
-            <div id="contenedorQR" class="contenedorQR"></div>
+            <div>
+                <div id="contenedorQR" class="contenedorQR"></div>
+            </div>
+           
         </div>
     </div>
 

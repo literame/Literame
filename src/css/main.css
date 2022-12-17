@@ -9,10 +9,10 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background: #000;
+    background: #3d4;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     
-    height: 70px;
+    height: 80px;
     width: 100%;
   }
   body {
@@ -55,6 +55,7 @@ img{
     text-decoration: none;
     font-family: monospace;
     margin: 0 8px;
+
 }
 .opciones a:hover{
     border-bottom: 1px solid white;
@@ -79,7 +80,7 @@ img{
     width: 100%;
     height: 400px;
     background-image: url('../img/38996hd.jpg');
-    background-repeat: no-repeat;
+    background-repeat: cover;
     
 }
 .techn{
