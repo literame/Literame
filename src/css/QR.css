@@ -10,9 +10,10 @@ body {
 }
 
 .contenedor {
-	max-width: 90%;
+	/* max-width: 90%; */
 	width: 100%;
-	margin: 80px auto;
+	height: 600px;
+	/* margin: 80px auto; */
 	display: flex;
 	background: orange;
 }
@@ -46,6 +47,7 @@ body {
 
 .formulario .btn:hover {
 	background: #3e14b2;
+	
 }
 
 .contenedorQR {
@@ -143,6 +145,23 @@ a{
     text-decoration: none;
 }
 
-
+.box-in{}
 
 /* ---------------------------- */
+.imagine{
+	width: 600px;
+	height: 550px;
+	background: #3e14b2;
+}
+
+.titulo{
+	height: 100px;
+	width: 100%;
+	background: #000;
+	font-size: 30px;
+	color: #fff;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
