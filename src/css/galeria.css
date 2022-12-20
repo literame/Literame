@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -21,7 +21,7 @@ header {
     margin-top: 75px;
     background-color: rgb(12, 12, 12);
     color: #fff;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
   }
 
 .logo{
@@ -161,10 +161,32 @@ img{
 
 
 
+.botonero{
+    border: 1px solid white;
+    background: #000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 80%;
+    right: 5%;
+    cursor: pointer;
+}
 
+.bottom{
+    position: relative;
+    text-decoration: none;
+    color: wheat;
+}
 
-
-
+.bottom a{
+    
+    text-decoration: none;
+    color: wheat;
+}
 /* diseño del grid */
 
 *{
@@ -172,10 +194,10 @@ img{
     box-sizing: border-box;
 }
 
-.galeria{
+/* .galeria{
     overflow-y: scroll;
 
-}
+} */
 .galery-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
