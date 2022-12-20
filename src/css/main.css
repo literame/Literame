@@ -9,7 +9,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background: #3d4;
+    background: #000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     
     height: 80px;
@@ -39,8 +39,8 @@ header {
 }
 img{
     
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
 }
 
 .opciones{
